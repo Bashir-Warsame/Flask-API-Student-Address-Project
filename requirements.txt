@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+requests
+pymysql
+Flask-JWT-Extended
+flask_marshmallow
+Marshmallow
