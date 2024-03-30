@@ -11,10 +11,19 @@ This project is a minimal viable API for managing student and address records. I
 Authentication is implemented to restrict access to the API's endpoints. Users must register, login, and authenticate themselves to access the API's features securely.
 ## Endpoints
 
-The API serves the following endpoints for both student and address resources:
+The API serves the following endpoints for both student, address and authentication resources:
+
+#### Authentication Endpoints
+
+**POST** /api/register: registers a new user to access the API.
+
+**POST** /api/login: allows registered users to login.
+
 
 #### Student Endpoints
-POST /api/student: Creates a new record of a student in the database.
+
+
+**POST** /api/student: Creates a new record of a student in the database.
 
 **GET** /api/student: Retrieves all students from the database.
 
